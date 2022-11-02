@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lasagna Recipe</title>
+<link rel="stylesheet" href="lasagna%20Recipe_files/styles.css"></head>
+<body>
+    <h1 class="header">lasagna Recipe</h1>
+    <img src="lasagna%20Recipe_files/lasagna.jpg" alt="lasagna image">
+    <h2 class="header-two">World best lasagna Recipe</h2>
+    <div class="lasagna-instructions">
+    <p class="disc">Making lasagna can be time-consuming, but the 
+results are well worth the wait. You'll find a detailed ingredient list 
+and step-by-step instructions in the recipe below, but let's go over the
+ basics:</p>
+    <h2 class="header-two">ingredients</h2>
+    <ul class="ingredients">
+        <li>1 pound sweet Italian sausage</li>
+        <li>¾ pound lean ground beef</li>
+        <li>½ cup minced onion</li>
+        <li>2 cloves garlic, crushed</li>
+        <li>1 (28 ounce) can crushed tomatoes</li>
+        <li>2 (6.5 ounce) cans canned tomato sauce</li>
+        <li>2 (6 ounce) cans tomato paste</li>
+        <li>½ cup water</li>
+        <li>2 tablespoons white sugar</li>
+        <li>4 tablespoons chopped fresh parsley, divided</li>
+        <li>1 ½ teaspoons dried basil leaves</li>
+        <li>1 ½ teaspoons salt, divided, or to taste</li>
+        <li>1 teaspoon Italian seasoning</li>
+        <li>½ teaspoon fennel seeds</li>
+        <li>¼ teaspoon ground black pepper</li>
+        <li>12 lasagna noodles</li>
+        <li>16 ounces ricotta cheese</li>
+        <li>1 egg</li>
+        <li>¾ pound mozzarella cheese, sliced</li>
+        <li>¾ cup grated Parmesan cheese</li>
+        <h2>steps</h2>
+        <ol>
+            <li class="steps">Cook sausage, ground beef, onion, and 
+garlic in a Dutch oven over medium heat until well browned. Stir in 
+crushed tomatoes, tomato sauce, tomato paste, and water. Season with 
+sugar, 2 tablespoons parsley, basil, 1 teaspoon salt, Italian seasoning,
+ fennel seeds, and pepper. Simmer, covered, for about 1 1/2 hours, 
+stirring occasionally.</li>
+            <li>Bring a large pot of lightly salted water to a boil. 
+Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain 
+noodles, and rinse with cold water. In a mixing bowl, combine ricotta 
+cheese with egg, remaining 2 tablespoons parsley, and 1/2 teaspoon salt.
+            </li>
+            <li>Preheat the oven to 375 degrees F (190 degrees C)</li>
+            <li>To assemble, spread 1 1/2 cups of meat sauce in the 
+bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over 
+meat sauce. Spread with 1/2 of the ricotta cheese mixture. Top with 1/3 
+of the mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over 
+mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, 
+and top with remaining mozzarella and Parmesan cheese. Cover with foil: 
+to prevent sticking, either spray foil with cooking spray or make sure 
+the foil does not touch the cheese.</li>
+            <li>Bake in the preheated oven for 25 minutes. Remove the 
+foil and bake for an additional 25 minutes. Rest lasagna for 15 minutes 
+before serving.</li>
+        </ol>
+    </ul>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+ </body></html>
