@@ -26,7 +26,7 @@ body .index-body{
    color: #67595E;
    font-size: 40px;
 }
-.lasagna-instructions{
+.instructions{
    text-align: left;
 }
 .disc{
@@ -47,9 +47,14 @@ body .index-body{
    height: auto;
    width: 720px;
    border-radius: 10px;
+   border: 8px solid #67595E;
 }
 .header-bg{
    background-color: #E8B4B8;
    background-size: auto;
    border-radius: 10px;
+}
+.header-three{
+   font-size: 26px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
