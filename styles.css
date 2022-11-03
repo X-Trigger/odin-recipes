@@ -58,3 +58,9 @@ body .index-body{
    font-size: 26px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.links{
+   border: 20px solid violet;
+   border-radius: 5px;
+   border-width: 10px;
+   list-style-type: none;
+}
